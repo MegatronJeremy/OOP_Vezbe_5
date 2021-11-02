@@ -6,7 +6,7 @@ int main() {
 
     Complex c1 {1, -2}, c2 {2, 3};
     std::cout << real(c1) << " | " << imag(c1) << std::endl;
-    std::cout << "C1: " << c1 << std::endl;
+    std::cout << "C1 je: " << c1 << std::endl;
     std::cout << "C2: " << c2 << std::endl;
     std::cout << "C1 * C2: " << (c1 * c2) << std::endl;
     std::cout << "C1 after modification: " << c1 << std::endl;
